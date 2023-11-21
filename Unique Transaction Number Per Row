@@ -1,0 +1,1 @@
+=Arrayformula(IFS(ROW(B:B)=1,"Transaction_ID", B:B="","",TRUE, 999999 + ROW(B:B)))
